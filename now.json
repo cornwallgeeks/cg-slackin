@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "cg-slackin",
+  "alias": "join.cornwallgeeks.net",
+  "builds": [
+    { "src": "*.php", "use": "@now/php" }
+  ],
+  "env": {
+    "SLACK_API_TOKEN": "@cg-slack-api-token",
+    "SLACK_SUBDOMAIN": "@cg-slack-subdomain",
+    "GOOGLE_CAPTCHA_SECRET": "@cg-captcha-secret",
+    "GOOGLE_CAPTCHA_SITEKEY": "@cg-captcha-sitekey"
+  }
+}
